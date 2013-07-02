@@ -5182,5 +5182,28 @@ p {
 }
 
 header {
-  background-image: url('/assets/bg2.jpg');
+/*  background-image: url('/assets/bg2.jpg');*/
+}
+
+footer {
+  margin: 25px;
+}
+
+.home-page-subcontent {
+  /* olive green */
+/*  border: 2px solid #bbe31c; */
+/*  background-image: url('/assets/marble_bg.jpg');*/
+/*  background-color: #bbe31c;*/
+  background-color: #E0E0D1;
+/*  border-radius: 15px;*/
+  opacity: .75;
+  height: 200px;
+
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.333);
+  -moz-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.333);
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.333);
+}
+
+.home-page-header {
+  text-align: center;
 }

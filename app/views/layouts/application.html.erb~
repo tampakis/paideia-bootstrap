@@ -124,14 +124,11 @@
       
       
       <div class="row-fluid">
-<!--        <div class="span3">
-        </div>--><!--/span -->
-        
-         <div class="span1">
-        </div><!--/span -->
-        <div class="span10">
+          <%= yield :home_lead %>
+      </div><!--/row-->
+
+      <div class="row-fluid">
           <%= yield %>
-        </div><!--/span -->
       </div><!--/row-->
       
       
