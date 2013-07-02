@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 	<% content_for :carousel do %>
 <!-- 	<div class="row"> -->
 <!--	  <div class="span1">
@@ -58,33 +58,118 @@
 	<% end %>
 	
 	<% content_for :home_lead do %>
-        <div class="span1">
+        <div class="span2">
         </div><!--/span -->
-        <div class="span10">
-	    <h1>Hello!</h1>
+        <div class="span7 home-page-subcontent">
+	    <h1>Who we are</h1>
 	    <p class="lead">Welcome to the Paideia Institute home page! Paideia aims to promote the study of the humanities through educational programming in Europe. By ‘humanistic’ PI understands not only the material that is taught, namely those academic disciplines which study the productions of human culture in distinction from the natural or social sciences, but also how that material is presented.
 	    </p>
         </div><!--/span -->
+	
+	<div class="row-fluid">
+	  <div class="span12">
+	  </div>
+	</div>
 	<% end %>
 
-	<div class="span4 home-page-subcontent">
-	  <h4 class="home-page-header">Our programs for 2013</h4>
+<!--	<div class="span4 home-page-subcontent">-->
+<!--	  <h4 class="home-page-header">Our programs for 2013</h4>-->
+<!--	    <ul>-->
+<!--	      <li>Living Latin in Rome</li>-->
+<!--	      <li>Living High School Latin in Rome</li>-->
+<!--	      <li>Living Greek in Greece</li>-->
+<!--	      <li>Living Latin in Paris</li>-->
+<!--	    </ul>-->
+<!--	</div>--><!--/span4-->
+
+<!--	<div class="span4 home-page-subcontent">-->
+<!--	  <h4 class="home-page-header">Get Involved!</h4>-->
+<!--	</div>--><!--/span4-->
+
+<!--	<div class="span4 home-page-subcontent">-->
+<!--	  <h4 class="home-page-header">News and Events</h4>-->
+<!--	</div>--><!--/span4-->
+
+
+	<div class="row-fluid">
+
+	<div class="span6">
+	<div class="row-fluid">
+	<div class="span1">
+	</div>
+
+	<div class="span10 home-page-subcontent">
+	  <h1>What we do</h1>
+	  <p>Paideia offers a number of programs focused on giving students an immersive experience in the Classical Humanities.  Our programs focus on both the spoken use of Ancient Greek and Latin, as well as increasing reading proficiency.  Paideia is unique in that our programs our held "on site," giving students a chance to read, speak, and encounter Classical languages in the places where they thrived millenia ago.</p>
+	</div><!--/span10-->
+
+	<div class="span1">
+	</div>
+	</div><!--/span6-->
+	</div><!--/row-fluid-->		
+
+	
+	<div class="span6">
+	<div class="row-fluid">
+	<div class="span1">
+	</div>
+	<div class="span10 home-page-subcontent">
+	  <h1>Our Current Programs</h1>
+	  <p>Currently, Paideia offers a number of exciting programs which offer students the chance to visit Rome, Paris, or Greece.  These include:</p>
 	    <ul>
 	      <li>Living Latin in Rome</li>
 	      <li>Living High School Latin in Rome</li>
 	      <li>Living Greek in Greece</li>
 	      <li>Living Latin in Paris</li>
 	    </ul>
-	</div><!--/span4-->
+	</div><!--/span10-->
 
-	<div class="span4 home-page-subcontent">
-	  <h4 "home-page-header">Get Involved!</h4>
-	</div><!--/span4-->
-
-	<div class="span4 home-page-subcontent">
-	  <h4 "home-page-header">News and Events</h4>
-	</div><!--/span4-->
+	<div class="span1">
+	</div>
+	</div><!--/span6-->
+	</div><!--/row-fluid-->	
 
 
+	<div class="row-fluid">
+	  <div class="span12">
+	  </div>
+	</div>
 
+	<div class="row-fluid">
+
+	<div class="span6">
+	<div class="row-fluid">
+	<div class="span1">
+	</div>
+
+	<div class="span10 home-page-subcontent">
+	  <h1>Get Involved</h1>
+	  <p>There are a number of ways to get involved with Paideia.  Check out our individual program pages for more information about each and details on how to apply.  Visit our Collaborate section to learn more about planning Spring Break trips through the Paideia Institute.  And if you like the work we do, please head over to our Support page and learn how you can help us to continue providing exceptional academic programming in the Classical Humanities.</p>
+	</div><!--/span10-->
+
+	<div class="span1">
+	</div>
+	</div><!--/span6-->
+	</div><!--/row-fluid-->	
+
+	<div class="span6">
+	<div class="row-fluid">
+	<div class="span1">
+	</div>
+
+	<div class="span10 home-page-subcontent">
+	  <h1>Learn More</h1>
+	  <p>Paideia is an organization like no other.  Below are links to the histroy of the Institute, bios of all our staff members, and an overview of</p>
+	</div><!--/span10-->
+
+	<div class="span1">
+	</div>
+	</div><!--/span6-->
+	</div><!--/row-fluid-->	
+
+	</div><!--/row-fluid-->
+
+
+
+</html>
 

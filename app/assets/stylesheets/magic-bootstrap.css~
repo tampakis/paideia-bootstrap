@@ -5181,6 +5181,11 @@ p {
   text-align: justify;
 }
 
+body {
+/*  background-image: url('/assets/bg2.jpg');*/
+  background-color: #66D4F0;
+}
+
 header {
 /*  background-image: url('/assets/bg2.jpg');*/
 }
@@ -5194,14 +5199,17 @@ footer {
 /*  border: 2px solid #bbe31c; */
 /*  background-image: url('/assets/marble_bg.jpg');*/
 /*  background-color: #bbe31c;*/
-  background-color: #E0E0D1;
-/*  border-radius: 15px;*/
+
+  background-color: #F1F1EA;
+  border-radius: 15px;
   opacity: .75;
-  height: 200px;
 
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.333);
   -moz-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.333);
   -webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.333);
+
+  min-height: 200px;
+  padding: 25px;
 }
 
 .home-page-header {
