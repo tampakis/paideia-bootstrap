@@ -1,9 +1,37 @@
 <!DOCTYPE html>
+
 	<% content_for :carousel do %>
-<!-- 	<div class="row"> -->
-<!--	  <div class="span1">
-	  </div>-->
-<!--	  <div class="span9">-->
+
+        <div class="row-fluid carousel-row"><!--wrapper row-->
+
+	<div class="span1">
+	</div>
+
+        <div class="span10 carousel-span"><!--wrapper span-->
+
+
+<!--    <div class="navbar"><div class="navbar-inner">-->
+<!--    <%= image_tag "logo.png" %><%= image_tag "title.png" %>-->
+<!--<div class="container"><a class="brand" href="/home/index">-->
+<!--The Paideia Institute-->
+<!--</a>-->
+<!--<ul class="nav ">      -->
+<!--      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About <b class="caret"></b></a><ul class="dropdown-menu">-->
+<!--	  <li><a href="/about/mission">Mission Statement</a></li>-->
+<!--	  <li><a href="/about/staff">Our Staff</a></li>-->
+<!--	  <li><a href="/about/gov">Governance</a></li>-->
+<!--</ul></li>	-->
+<!--	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs <b class="caret"></b></a><ul class="dropdown-menu">-->
+<!--	  <li><a href="/programs/rome">Living Latin in Rome</a></li>-->
+<!--	  <li><a href="/programs/high_school">Living High School Latin in Rome</a></li>-->
+<!--	  <li><a href="/programs/greece">Living Greek in Greece</a></li>-->
+<!--	  <li><a href="/programs/paris">Living Latin in Paris</a></li>-->
+<!--</ul></li>	-->
+<!--	<li><a href="/contact/index">Contact Us</a></li>-->
+<!--</ul></div></div></div>-->
+
+
+
 	    <div id="main_carousel" class="carousel slide">
 	      <ol class="carousel-indicators">
 		<li data-target="#main_carousel" data-slide-to="0" class="active"></li>
@@ -15,7 +43,7 @@
 	      <div class="item active"><%= image_tag("llir.jpg") %>
 		<div class="carousel-caption">
 		<h4>Living Latin in Rome</h4>
-		<p>June 9 - July 14, 2013</p>
+		<p>June 9 - July 14, 2013.  This is the very lengthy sentence which I am writing to test out the wrapping in the carousel caption.	</p>
 		</div>
 	      </div>
 	      <div class="item"><%= image_tag("hlir.jpg") %>
@@ -26,7 +54,7 @@
 	      </div>
 	      <div class="item"><%= image_tag("lgig.jpg") %>
 		<div class="carousel-caption">
-		<h4>Living Greek in Rome</h4>
+		<h4>Living Greek</h4>
 		<p>August 11 - August 25, 2013</p>
 		</div>
 	      </div>
@@ -37,30 +65,30 @@
 		</div>
 	      </div>
 	      </div><!-- carousel-inner -->
-	      <a class="left carousel-control" href="#main_carousel" data-slide="prev">&lsaquo;</a>
-	      <a class="right carousel-control" href="#main_carousel" data-slide="next">&rsaquo;</a>
+<!--	      <a class="left carousel-control" href="#main_carousel" data-slide="prev">&lsaquo;</a>-->
+<!--	      <a class="right carousel-control" href="#main_carousel" data-slide="next">&rsaquo;</a>-->
 	    </div><!-- main_carousel -->
-<!--	  </div>--><!--/span-->
-	  
-<!--	  <div class="span3">
-	    <div class="well sidebar-nav">
-	      <h3>Sidebar</h3>
-	      <ul class="nav nav-list">
-		<li class="nav-header">Sidebar</li>
-		<li><%= link_to "Link1", "#"  %></li>
-		<li><%= link_to "Link2", "#"  %></li>
-		<li><%= link_to "Link3", "#"  %></li>
-	      </ul>-->
-<!--	    </div>--><!--/.well -->
-<!--	  </div>--><!--/span-->
-	  
-<!--	</div>--><!--/row-->
-	<% end %>
+
+
+
+
+        </div><!--/wrapper span-->
+
+
+	<div class="span1">
+	</div>
+
+        </div><!-- the mystery of what this closes remains... -->
+
+      </div><!--/wrapper row-->
+
+      <% end %>
 	
 	<% content_for :home_lead do %>
-        <div class="span2">
+	<div class="row-fluid">
+        <div class="span1">
         </div><!--/span -->
-        <div class="span8 home-page-subcontent">
+        <div class="span10 home-page-subcontent">
 	    <h1>Who we are</h1>
 	    <p class="lead">Welcome to the Paideia Institute home page! Paideia aims to promote the study of the humanities through educational programming in Europe. By ‘humanistic’ PI understands not only the material that is taught, namely those academic disciplines which study the productions of human culture in distinction from the natural or social sciences, but also how that material is presented.
 	    </p>
@@ -68,106 +96,119 @@
 	
 	<div class="row-fluid">
 	  <div class="span12">
-	  </div>
-	</div>
+	    <hr class="horz-divider">
+	  </div><!--/span-->
+	</div><!--/row-fluid-->
 	<% end %>
 
-<!--	<div class="span4 home-page-subcontent">-->
-<!--	  <h4 class="home-page-header">Our programs for 2013</h4>-->
-<!--	    <ul>-->
-<!--	      <li>Living Latin in Rome</li>-->
-<!--	      <li>Living High School Latin in Rome</li>-->
-<!--	      <li>Living Greek in Greece</li>-->
-<!--	      <li>Living Latin in Paris</li>-->
-<!--	    </ul>-->
-<!--	</div>--><!--/span4-->
 
-<!--	<div class="span4 home-page-subcontent">-->
-<!--	  <h4 class="home-page-header">Get Involved!</h4>-->
-<!--	</div>--><!--/span4-->
+<!--	<div class="row-fluid hello">-->
+<!--	<div class="span1">-->
+<!--	</div>-->
+<!--	<div class="span10">-->
 
-<!--	<div class="span4 home-page-subcontent">-->
-<!--	  <h4 class="home-page-header">News and Events</h4>-->
-<!--	</div>--><!--/span4-->
+	  <div class="row-fluid row-bottom">
+	  <div class="span6 content-bottom content-bottom-left">
+	  <h4>Our Current Programs</h4>
+	  <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+	  </p>
 
+		<div class="row-fluid program-row">
+		<div class="span4">
+<%= image_tag "/assets/refinery/rome 4.jpg" %>
+		</div>
+		<div class="span8"><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+		</div>
+		</div>
 
-	<div class="row-fluid">
+		<div class="row-fluid program-row">
+		<div class="span8"><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+		</div>
+		<div class="span4">
+<%= image_tag "/assets/refinery/rome 1.jpg" %>
+		</div>
+		</div>	
 
-	<div class="span6">
-	<div class="row-fluid">
-	<div class="span1">
-	</div>
+		<div class="row-fluid program-row">
+		<div class="span4">
+<%= image_tag "/assets/refinery/rome 5.jpg" %>
+		</div>
+		<div class="span8"><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+		</div>
+		</div>	
 
-	<div class="span10 home-page-subcontent">
-	  <h1>What we do</h1>
-	  <p>Paideia offers a number of programs focused on giving students an immersive experience in the Classical Humanities.  Our programs focus on both the spoken use of Ancient Greek and Latin, as well as increasing reading proficiency.  Paideia is unique in that our programs our held "on site," giving students a chance to read, speak, and encounter Classical languages in the places where they thrived millenia ago.</p>
-	</div><!--/span10-->
+		<div class="row-fluid program-row">
+		<div class="span8"><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+		</div>
+		<div class="span4">
+<%= image_tag "/assets/refinery/paris_gargoyle_copy.jpg" %>
+		</div>
+		</div>					
 
-	<div class="span1">
-	</div>
-	</div><!--/span6-->
-	</div><!--/row-fluid-->		
-
-	
-	<div class="span6">
-	<div class="row-fluid">
-	<div class="span1">
-	</div>
-	<div class="span10 home-page-subcontent">
-	  <h1>Our Current Programs</h1>
-	  <p>Currently, Paideia offers a number of exciting programs which offer students the chance to visit Rome, Paris, or Greece.  These include:</p>
-	    <ul>
-	      <li>Living Latin in Rome</li>
-	      <li>Living High School Latin in Rome</li>
-	      <li>Living Greek in Greece</li>
-	      <li>Living Latin in Paris</li>
-	    </ul>
-	</div><!--/span10-->
-
-	<div class="span1">
-	</div>
-	</div><!--/span6-->
-	</div><!--/row-fluid-->	
+<!--	  <ul class="program-list">-->
+<!--		<li><%= image_tag "/assets/refinery/rome 4.jpg" %><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."-->
+<!--		</p></li>-->
+<!--		<li><%= image_tag "/assets/refinery/rome 4.jpg" %><<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."-->
+<!--		</p></li>-->
+<!--		<li><%= image_tag "/assets/refinery/rome 4.jpg" %><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."-->
+<!--		</p></li>-->
+<!--		<li><%= image_tag "/assets/refinery/rome 4.jpg" %><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."-->
+<!--		</p></li>-->
 
 
-	<div class="row-fluid">
+<!--	    <li>Living Latin in Rome</li>-->
+<!--	    <li>Living Latin in Rome, for High Schoolers</li>-->
+<!--	    <li>Living Greek in Greece</li>-->
+<!--	    <li>Living (Medeival) Latin in Paris</li>-->
+<!--	  </ul>-->
+
+
+	  </div>
+
+	  <div class="span6 content-bottom content-bottom-right">
+	  <h4>Get involved with Paideia</h4>
+
+	  <img src="/assets/drawButton.png" class="img-circle">
+
+	  <ul>
+	    <li>Living Latin in Rome</li>
+	    <li>Living Latin in Rome, for High Schoolers</li>
+	    <li>Living Greek in Greece</li>
+	    <li>Living (Medeival) Latin in Paris</li>
+	  </ul>
+	  </div>
+	  </div><!--/row-fluid-->
+
+	  <div class="row-fluid">
 	  <div class="span12">
 	  </div>
-	</div>
+	  </div>
 
-	<div class="row-fluid">
+<!--	  <div class="row-fluid row-bottom">-->
+<!--	  <div class="span6 content-bottom content-bottom-left">-->
+<!--	  <h4>Paideia is proud to partner with:</h4>-->
+<!--	  <ul>-->
+<!--	    <li>Living Latin in Rome</li>-->
+<!--	    <li>Living Latin in Rome, for High Schoolers</li>-->
+<!--	    <li>Living Greek in Greece</li>-->
+<!--	    <li>Living (Medeival) Latin in Paris</li>-->
+<!--	  </ul>-->
+<!--	  </div>-->
 
-	<div class="span6">
-	<div class="row-fluid">
-	<div class="span1">
-	</div>
+<!--	  <div class="span6 content-bottom content-bottom-right">-->
+<!--	  <h4>Paideia is proud to partner with:</h4>-->
+<!--	  <ul>-->
+<!--	    <li>Living Latin in Rome</li>-->
+<!--	    <li>Living Latin in Rome, for High Schoolers</li>-->
+<!--	    <li>Living Greek in Greece</li>-->
+<!--	    <li>Living (Medeival) Latin in Paris</li>-->
+<!--	  </ul>-->
+<!--	  </div>-->
+<!--	  </div><!--/row-fluid-->
 
-	<div class="span10 home-page-subcontent">
-	  <h1>Get Involved</h1>
-	  <p>There are a number of ways to get involved with Paideia.  Check out our individual program pages for more information about each and details on how to apply.  Visit our Collaborate section to learn more about planning Spring Break trips through the Paideia Institute.  And if you like the work we do, please head over to our Support page and learn how you can help us to continue providing exceptional academic programming in the Classical Humanities.</p>
-	</div><!--/span10-->
+<!--	</div><!--/span-->
 
-	<div class="span1">
-	</div>
-	</div><!--/span6-->
-	</div><!--/row-fluid-->	
-
-	<div class="span6">
-	<div class="row-fluid">
-	<div class="span1">
-	</div>
-
-	<div class="span10 home-page-subcontent">
-	  <h1>Learn More</h1>
-	  <p>Paideia is an organization like no other.  Below are links to the histroy of the Institute, bios of all our staff members, and an overview of</p>
-	</div><!--/span10-->
-
-	<div class="span1">
-	</div>
-	</div><!--/span6-->
-	</div><!--/row-fluid-->	
-
-	</div><!--/row-fluid-->
+<!--	</div><!--/row-fluid-->
 
 
 

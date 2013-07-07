@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+      <div class="row-fluid">
+	<div class="span12 main-span">
+
+      <h1>Officers</h1>
+      </br>    
+      <p><%= link_to 'Jason Pedicone', 'http://paideia-institute.org/profiles/1' %>, President and Director of U.S. Operations.</p>
+      <p><%= link_to 'Eric Hewett', 'http://paideia-institute.org/profiles/2' %>, Treasurer and Director of European Operations.</p>
+      <p><%= link_to 'Donna Zuckerberg', 'http://paideia-institute.org/profiles/3' %>, Donna Zuckerberg, Secretary and Director of Development.</p>
+      </br>    
+      </br>    
+      
+      <h1>Board of Directors</h1>
+      </br>    
+	    
+      <p><%= link_to 'Matthew McGowan', 'http://faculty.fordham.edu/mamcgowan/' %>, Professor of Classics at Fordham University.</p>
+      <p><%= link_to 'Msgr. Daniel Gallagher', 'http://paideia-institute.org/profiles/10' %>, Secretary of Latin Letters, Vatican Secretariat of State.</p>
+      <p><%= link_to 'Leah Whittington', 'http://scholar.harvard.edu/lwhittington' %>, Professor of Classics and English at Harvard University.</p>
+      </br>    
+      </br>    
+
+      <h1>Advisory Board</h1>
+      </br>    
+      <p><%= link_to 'Reginaldus Foster O.C.D.', 'http://en.wikipedia.org/wiki/Reginald_Foster_%28Latinist%29' %>, Secretary of Latin Letters, Vatican Secretariat of State.</p>
+      <p><%= link_to 'Anthony Grafton', 'http://www.princeton.edu/history/people/display_person.xml?netid=grafton' %>, Professor of History at Princeton University.</p>
+      <p><%= link_to 'Michael Fontaine', 'http://classics.cornell.edu/people/detail.cfm?netid=mf268' %>, Professor of Classics at Cornell University.</p>
+      </br>    
+      </br>    
+
+      <h1>Junior Board</h1>
+      </br>    
+      <p>Caroline Joost, LLiRHS '12</p>
+      <p>Solomon Cohen, LLiRHS '12</p>
+      <p>Jonathan Marrow, LLiRHS '12</p>
+      </br>    
+      </br>    
+
+	</div><!--/span-->
+      </div><!--/row-->
+
+</html>

@@ -49,3 +49,8 @@ gem "twitter-bootstrap-rails"
 
 ## The following gem is for Rails-Bootstrap-Navbar
 gem 'rails_bootstrap_navbar'
+
+## special add-on for ruby on rails
+gem 'bootstrap-addons-rails'
+
+gem "blueimp-gallery-rails", "~> 2.3.1"

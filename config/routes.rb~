@@ -1,7 +1,7 @@
 PaideiaBoostrap::Application.routes.draw do
   get "programs/paris"
   get "programs/greece"
-  get "programs/high_school_rome"
+  get "programs/high_school"
   get "programs/rome"
   get "about/mission"
   get "about/staff"

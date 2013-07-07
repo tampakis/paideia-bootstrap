@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+
+    <% @staff_members.each do |staff_member| %>
+      <div class="row-fluid">
+	<div class="span1">
+	</div>
+	<div class="span10 main-span">
+
+	<div class="span2">
+	</div><!--/span-->
+
+	<div class="span2">
+	  <% @portrait = Portrait.where(:id => staff_member.portrait_id).first %>
+	  <% if @portrait != nil %>
+	    <%= image_tag( @portrait.url ) %>
+	  <% end %>
+	</div><!--/span-->
+
+
+	<div class="span6">	  
+
+	</div><!--/span-->
+<!--      </div><!--/row-->  <!-- and apparently this was one span too many?? -->
+
+    <div class="row-fluid">
+      <div class="span12">
+      </div>
+    </div>
+
+    <% end %>
+
+
+	
+</html>

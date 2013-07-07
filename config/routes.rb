@@ -1,4 +1,7 @@
 PaideiaBoostrap::Application.routes.draw do
+
+  root :to => "home#index"
+
   get "programs/paris"
   get "programs/greece"
   get "programs/high_school"

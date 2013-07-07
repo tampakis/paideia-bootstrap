@@ -33,120 +33,125 @@
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
+
+
   </head>
   <body>
-  
+
+
     <header>
-    <%= image_tag "logo.png" %><%= image_tag "title.png" %>
+<!--    <%= image_tag "logo.png" %><%= image_tag "title.png" %>-->
     </header>
   
-    <%= nav_bar :brand => "The Paideia Institute", :brand_link => "/home/index" do %>
-      <% menu_group do %>	
-      
-      <%= drop_down "About" do %>
-	  <%= menu_item "Mission Statement", "/about/mission" %>
-	  <%= menu_item "Our Staff", "/about/staff" %>
-	  <%= menu_item "Governance", "/about/gov" %>
-	<% end %>
-	
-	<%= drop_down "Programs" do %>
-	  <%= menu_item "Living Latin in Rome", "/programs/rome" %>
-	  <%= menu_item "Living High School Latin in Rome", "/programs/high_school" %>
-	  <%= menu_item "Living Greek in Greece", "/programs/greece" %>
-	  <%= menu_item "Living Latin in Paris", "/programs/paris" %>
-	<% end %>
-	
-	<%= menu_item "Contact Us", "/contact/index" %>
-      <% end %>
-    <% end %>
-  
-  
-<!--
-    <div class="navbar navbar-fluid-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">PaideiaBootstrap</a>
-          <div class="container-fluid nav-collapse">
-            <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        <!--</div>
-      </div>
-    </div>-->
+<!--    <%= nav_bar :brand => "The Paideia Institute", :brand_link => "/home/index" do %>-->
+<!--      <% menu_group do %>	-->
+<!--      -->
+<!--      <%= drop_down "About" do %>-->
+<!--	  <%= menu_item "Mission Statement", "/about/mission" %>-->
+<!--	  <%= menu_item "Our Staff", "/about/staff" %>-->
+<!--	  <%= menu_item "Governance", "/about/gov" %>-->
+<!--	<% end %>-->
+<!--	-->
+<!--	<%= drop_down "Programs" do %>-->
+<!--	  <%= menu_item "Living Latin in Rome", "/programs/rome" %>-->
+<!--	  <%= menu_item "Living High School Latin in Rome", "/programs/high_school" %>-->
+<!--	  <%= menu_item "Living Greek in Greece", "/programs/greece" %>-->
+<!--	  <%= menu_item "Living Latin in Paris", "/programs/paris" %>-->
+<!--	<% end %>-->
+<!--	-->
+<!--	<%= menu_item "Contact Us", "/contact/index" %>-->
+<!--      <% end %>-->
+<!--    <% end %>-->
+
+
+<!--<div class="row-fluid nav-row">-->
+<!--<div class="span1"></div>-->
+<!--<div class="span10">-->
+
+<div class="nav-container">
+
+    <div class="navbar"><div class="navbar-inner">
+
+    <div class="logo-container">
+    <%= image_tag "logo.png" %><%= image_tag "title.png" %>
+    </div>
+
+<div class="container" >
+<!--<a class="brand" href="/home/index">-->
+<!--The Paideia Institute-->
+<!--</a>-->
+<ul class="nav ">
+	<li><a href="/home/index">Home</a></li>      
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About <b class="caret"></b></a><ul class="dropdown-menu">
+	  <li><a href="/about/mission">Mission Statement</a></li>
+	  <li><a href="/about/staff">Our Staff</a></li>
+	  <li><a href="/about/gov">Governance</a></li>
+</ul></li>	
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs <b class="caret"></b></a><ul class="dropdown-menu">
+	  <li><a href="/programs/rome">Living Latin in Rome</a></li>
+	  <li><a href="/programs/high_school">Living High School Latin in Rome</a></li>
+	  <li><a href="/programs/greece">Living Greek in Greece</a></li>
+	  <li><a href="/programs/paris">Living Latin in Paris</a></li>
+</ul></li>	
+	<li><a href="/contact/index">Contact Us</a></li>
+</ul></div></div></div>
+
+</div>
+<!--</div></div>-->
+
 
     <div class="container-fluid">
+       
 
-<!--      <div class="row-fluid" id="container-row">-->
-<!--        <div class="span3" id="nav-list-span">-->
-        
-<!--          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
-            </ul>
-          </div>--><!--/.well -->
-          
-<!--           <div class="well sidebar-nav"> -->
+<div class="carousel-container">	
 
-<!--          <ul class="nav nav-list">-->
-<!--	      <li class="nav-header">Ribbon Header</li>-->
-<!--	      <li><%= link_to "Home", "/home/index" %></li>-->
-<!--	      <li><%= link_to "About", "/about/index" %></li>-->
-<!--	      <li><%= link_to "Programs", "/programs/index" %></li>-->
-<!--	      <li><%= link_to "Contact", "/contact/index" %></li>-->
-<!--          </ul>-->
-
-<!--          </div>--><!--/.well -->
-          
-<!--        </div><!--/span-->
-        
-        
-<!--        <div class="span9" id="container-span">-->
-        
-        <div class="row-fluid"><!--wrapper row-->
-        <div class="span12"><!--wrapper span-->
-          <%= bootstrap_flash %>
+          <%#= bootstrap_flash %>
+	<% if current_page?("/home/index") %>
           <%= yield :carousel %>
-        </div><!--/span-->
-        
-      </div><!--/row-->
+	<% end %>
 
-      
-      
+        </div><!-- the mystery of what this closes remains... -->
+
+</div>
+
       <div class="row-fluid">
+
+	<div class="span1">
+	</div>
+	<div class="span10" id="main-content"><!-- wrap it all in a span to center-->
+
           <%= yield :home_lead %>
-      </div><!--/row-->
 
-      <div class="row-fluid">
           <%= yield %>
-      </div><!--/row-->
-      
-      
-<!--        </div><!--/wrapper span -->
-<!--      </div><!--/wrapper row-->
-      
+
+        </div><!--/wrapper span (main-content) -->
+
       <footer>
         <p>&copy; The Paideia Institute 2013</p>
       </footer>
 
+      </div><!--/wrapper row-->
+
+
     </div> <!-- /container -->
+
+
 
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <%= javascript_include_tag "application" %>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+    <script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+        $("a[rel^='prettyPhoto']").prettyPhoto();
+    });
+</script>
+
+
 
   </body>
 </html>

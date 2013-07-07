@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+      <div class="row-fluid">
+	<div class="span1">
+	</div>
+	<div class="span10 main-span">
+
+	    <h1>Living Latin in Rome</h1>
+	    <h2>June 9 - July 14, 2013</h2>
+	    <p>This intensive, five-week Latin language course has two purposes: providing a continuous period of study of Latin and introducing students to the most important ancient sites of Rome and its surrounding areas.</br></br>
+
+The course meets five days a week for four hours a day (divided into two sessions) and combines traditional classroom instruction with the active use of Latin as a living language.  Each afternoon, students meet in the classroom to read through a well-known passage from Latin literature connected with an ancient Roman site.  The following morning's session uses the city as a classroom.  Students visit the site referenced in the morning’s readings and work with the instructors in small groups, using Latin actively to interact with each other and the site they are visiting.  Grammar, vocabulary and syntax seen in the morning’s reading are reinforced and practiced in a memorable and authentic setting.</br></br>
+
+Each Saturday there is a trip to an ancient site outside of the city with associated readings.  Sundays are free for relaxing and exploring Rome.
+	    </p>
+	    
+	    <h2>Accommodation</h2>
+	    <p>Students are free to seek their own accommodations in Rome. Given the difficulty and expense associated with finding summer housing in the Eternal City, for single students we strongly recommend using the Institute's apartments. These are shared, located near the center of Rome, and include kitchen and bath. 
+	    </p>
+	    
+	    <h2>Trips Outside of Rome</h2>
+	    <p>Each Saturday, the course visits an important ancient site in Rome’s environs.  Sights may include: 
+	    </p>
+	    <ul>
+	      <li>SPERLONGA - The Museum, Beach, and Grotto of Tiberius</li>
+	      <li>LICENZA - “Horace’s” Sabine Villa; Tivoli - Hadrian’s Villa </li>
+	      <li>LAGO BRACCIANO -  Lake in northern Latium near ancient Veii </li>
+	      <li>CUMAE and the BAY OF NAPLES - The Sibyl’s Cave, Mount Vesuvius, The Campi Flegrei, Pompei, Naples (Weekend Trip).</li>
+	    </ul>
+	    <p>*All trips include associated Latin readings.
+	    </p>
+	    
+	    <h2>Apply</h2>
+	    <p>All persons of at least 18 years of age and with at least an intermediate knowledge of Latin grammar are encouraged to apply. This means at least one year of college or two years of high school Latin. For more information and to request an application please write to: summerlatin@paideia-institute.org. For information by phone call: (609) 429.0734 
+	    </p>
+	    
+	    
+	    </br></br>
+
+<!--<div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">-->
+<!--    <a href="/assets/lgig_thmb_2.jpg" title="Banana" data-gallery="gallery">Banana</a>-->
+<!--    <a href="/assets/lgig_thmb_2.jpg" title="Apple" data-gallery="gallery">Apple</a>-->
+<!--    <a href="/assets/lgig_thmb_2.jpg" title="Orange" data-gallery="gallery">Orange</a>-->
+<!--</div>-->
+
+<div id="links">
+    <a href="/assets/lgig_thmb_2.jpg" title="Banana">
+        <img src="/assets/lgig_thmb_2.jpg" alt="Banana">
+    </a>
+    <a href="/assets/lgig_thmb_3.jpg" title="Apple">
+        <img src="/assets/lgig_thmb_3.jpg" alt="Apple">
+    </a>
+    <a href="/assets/lgig_thmb_4.jpg" title="Orange">
+        <img src="/assets/lgig_thmb_4.jpg" alt="Orange">
+    </a>
+</div>
+
+
+
+
+
+	</div><!--/span-->
+<!--      </div><!--/row-->  <!-- and apparently this was one span too many?? -->
+
+</html>
