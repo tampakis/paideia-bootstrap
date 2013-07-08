@@ -34,7 +34,9 @@
 	    
 	    </br></br>
 
+<%= link_to "Rome Testimonials", "/programs/rome_testimonials" %>
+
 	</div><!--/span-->
-      </div><!--/row-->
+<!--      </div><!--/row-->  <!-- and apparently this was one span too many?? -->
 
 </html>

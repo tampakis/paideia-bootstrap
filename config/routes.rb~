@@ -1,4 +1,21 @@
 PaideiaBoostrap::Application.routes.draw do
+
+  root :to => "home#index"
+
+  resource :contacts
+#  map.resource :contacts, :as => "contact"
+
+  get "media/photo_gallery"
+  get "photo_gallery", :to => redirect("media/photo_gallery")
+
+  get "programs/greece/greece_testimonials", :to => redirect("programs/greece_testimonials")
+  get "programs/high_school/high_school_testimonials", :to => redirect("programs/high_school_testimonials")
+  get "programs/paris/paris_testimonials", :to => redirect("programs/paris_testimonials")
+  get "programs/rome/rome_testimonials", :to => redirect("programs/rome_testimonials")
+  get "programs/greece_testimonials"
+  get "programs/high_school_testimonials"
+  get "programs/paris_testimonials"
+  get "programs/rome_testimonials"
   get "programs/paris"
   get "programs/greece"
   get "programs/high_school"

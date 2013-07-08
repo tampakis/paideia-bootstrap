@@ -34,6 +34,8 @@
     <!-- Size should be 32 x 32 pixels -->
     <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
 
+    <%= stylesheet_link_tag "prettyPhoto.css" %>
+
 
   </head>
   <body>
@@ -73,7 +75,7 @@
     <div class="navbar"><div class="navbar-inner">
 
     <div class="logo-container">
-    <%= image_tag "logo.png" %><%= image_tag "title.png" %>
+    <%= image_tag "logo_small.png" %><%= image_tag "title_small.png" %>
     </div>
 
 <div class="container" >
@@ -93,6 +95,7 @@
 	  <li><a href="/programs/greece">Living Greek in Greece</a></li>
 	  <li><a href="/programs/paris">Living Latin in Paris</a></li>
 </ul></li>	
+	<li><a href="/media/photo_gallery">Photo Gallery</a></li>
 	<li><a href="/contact/index">Contact Us</a></li>
 </ul></div></div></div>
 
@@ -106,7 +109,7 @@
 <div class="carousel-container">	
 
           <%#= bootstrap_flash %>
-	<% if current_page?("/home/index") %>
+	<% if (current_page?("/home/index") || current_page?("/")) %>
           <%= yield :carousel %>
 	<% end %>
 
@@ -145,9 +148,12 @@
     <script src="/assets/js/bootstrap.min.js"></script>
 
     <script src="/assets/js/jquery.prettyPhoto.js"></script>
+
 <script type="text/javascript" charset="utf-8">
     $(document).ready(function(){
-        $("a[rel^='prettyPhoto']").prettyPhoto();
+        $("a[rel^='prettyPhoto']").prettyPhoto({slideshow:5000, autoplay_slideshow:true, theme: 'pp_default', social_tools: false, allow_resize: false, default_width: 200,
+default_height: 200
+})
     });
 </script>
 

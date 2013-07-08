@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+      <div class="row-fluid">
+	<div class="span1">
+	</div>
+	<div class="span10 main-span">
+
+<p>
+<strong>Name: </strong><%= @message.name %>
+</p>
+<p>
+<strong>Email: </strong><%= @message.email %>
+</p>
+<p>
+<strong>Phone number: </strong><%= @message.phone %>
+</p>
+<p>
+<strong>Name: </strong><%= @message.message %>
+</p>
+
+
+	</div><!--/span-->
+<!--      </div><!--/row-->  <!-- and apparently this was one span too many?? -->

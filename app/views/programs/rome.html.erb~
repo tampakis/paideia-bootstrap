@@ -37,27 +37,7 @@ Each Saturday there is a trip to an ancient site outside of the city with associ
 	    
 	    </br></br>
 
-<!--<div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">-->
-<!--    <a href="/assets/lgig_thmb_2.jpg" title="Banana" data-gallery="gallery">Banana</a>-->
-<!--    <a href="/assets/lgig_thmb_2.jpg" title="Apple" data-gallery="gallery">Apple</a>-->
-<!--    <a href="/assets/lgig_thmb_2.jpg" title="Orange" data-gallery="gallery">Orange</a>-->
-<!--</div>-->
-
-<div id="links">
-    <a href="/assets/lgig_thmb_2.jpg" title="Banana">
-        <img src="/assets/lgig_thmb_2.jpg" alt="Banana">
-    </a>
-    <a href="/assets/lgig_thmb_3.jpg" title="Apple">
-        <img src="/assets/lgig_thmb_3.jpg" alt="Apple">
-    </a>
-    <a href="/assets/lgig_thmb_4.jpg" title="Orange">
-        <img src="/assets/lgig_thmb_4.jpg" alt="Orange">
-    </a>
-</div>
-
-
-
-
+<%= link_to "Rome Testimonials", "/programs/rome_testimonials" %>
 
 	</div><!--/span-->
 <!--      </div><!--/row-->  <!-- and apparently this was one span too many?? -->
